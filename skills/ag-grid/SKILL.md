@@ -5,7 +5,7 @@ description: Implement AG Grid in Angular using only AG Grid Community (MIT). Us
 
 # AG Grid Community Angular
 
-## Update test
+## Update test V2.0
 
 ## Goal
 
