@@ -5,6 +5,8 @@ description: Implement AG Grid in Angular using only AG Grid Community (MIT). Us
 
 # AG Grid Community Angular
 
+## Update test
+
 ## Goal
 
 Build Angular data grids with `ag-grid-community` + `ag-grid-angular` only, while preserving spreadsheet-like usability where possible without Enterprise modules.
