@@ -1,21 +1,35 @@
-# Agent Skills
+# Agent Skills & Rules
 
-A collection of agent skills installable via [skills.sh](https://skills.sh).
+Example skills and rules for testing [skillsandruless](https://www.npmjs.com/package/skillsandruless).
 
-## Install
-
-```bash
-npx skills add JASON-QWeb/agent-skills
-```
-
-## Available Skills
+## Skills
 
 | Skill | Description |
-|-------|-------------|
-| [hello-world](skills/hello-world/) | A minimal example skill that demonstrates the agent skill format |
+| --- | --- |
+| [code-reviewer](skills/code-reviewer/) | Review code for bugs, security issues, and best practices |
+| [git-commit-helper](skills/git-commit-helper/) | Generate clear conventional commit messages |
+| [api-designer](skills/api-designer/) | Design clean RESTful APIs |
 
-## Creating Skills
+## Rules
 
-Each skill lives in `skills/<skill-name>/` and requires a `SKILL.md` file with YAML frontmatter (`name` + `description`) and markdown instructions.
+| Rule | Description |
+| --- | --- |
+| [typescript](rules/typescript.md) | TypeScript coding standards |
+| [react](rules/react.md) | React component best practices |
+| [security](rules/security.md) | Application security guidelines |
 
-Learn more: [skills.sh/docs](https://skills.sh/docs)
+## Usage
+
+```bash
+# Install all skills
+npx skillsandruless add JASON-QWeb/agent-skills
+
+# Install all rules
+npx skillsandruless add JASON-QWeb/agent-skills --rule
+
+# Install a specific skill
+npx skillsandruless add JASON-QWeb/agent-skills --skill code-reviewer
+
+# Install a specific rule
+npx skillsandruless add JASON-QWeb/agent-skills --rule --skill react
+```
