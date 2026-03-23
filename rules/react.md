@@ -9,3 +9,5 @@
 - Name event handlers with `handle` prefix: `handleClick`, `handleSubmit`.
 - Name boolean props with `is`/`has` prefix: `isLoading`, `hasError`.
 - Always provide a `key` prop when rendering lists. Never use array index as key unless the list is static.
+
+## Update
